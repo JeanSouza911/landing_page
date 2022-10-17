@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-bottom: 500px;
+}
+
 #event-description {
     background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), 
     url(../img/hrz-5.jpg);
@@ -97,5 +101,50 @@
 
 .btn:hover {
     opacity: 1;
+}
+
+#key-benefits h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--texte-tertiary);
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1 {
+    background-image: url("../img/sqr-1.jpg");
+}
+
+#benefit-2 {
+    background-image: url("../img/sqr-2.jpg");
+}
+
+#benefit-3 {
+    background-image: url("../img/sqr-3.jpg");
 }
 
