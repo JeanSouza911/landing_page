@@ -13,10 +13,6 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-bottom: 500px;
-}
-
 #event-description {
     background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), 
     url(../img/hrz-5.jpg);
@@ -261,6 +257,29 @@ body {
     margin: 0 auto;
     font-weight: 600;
     font-size: 1.2em;
+}
+
+#footer {
+    text-align: center;
+    color: var(--secondary);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+
+#footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+#footer span {
+    font-weight: bold;
 }
 
 
