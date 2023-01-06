@@ -237,5 +237,31 @@ body {
     font-weight: bold;
 }
 
+#cta{
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), 
+    url(../img/hrz-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);    
+}
+
+#cta h3{
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#cta .btn {
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
 
 
