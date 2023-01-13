@@ -1,5 +1,5 @@
 :root {
-    --primary: #eb1ccc;
+    --primary: #ffbb33;
     --secondary: #95989a;
     --text-color: #fff;
     --text-secondary: #000;
@@ -112,6 +112,11 @@
     padding: 4em;
     width: 80%;
     margin: 0 auto;
+}
+
+.benefits p {
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 .benefit {
