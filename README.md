@@ -13,7 +13,7 @@ JavaScript
 
 ## Layout:
 
-
+![Web](https://github.com/JeanSouza911/landing_page/blob/master/img/decoract.png)
 
 # Autor:
 
