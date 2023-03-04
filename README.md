@@ -1,8 +1,8 @@
-# ActionDecor
+# DecorAct
 
 ## Sobre o projeto:
 
-O projeto ActionDecor é uma Landing Page com o objetivo de divulgar um evento de decoração. A página possui responsividade para telas de Mobile e Tablet
+O projeto DecorAct é uma Landing Page com o objetivo de divulgar um evento de decoração. A página possui responsividade para telas de Mobile e Tablet
 ## Tecnologias usadas no projeto:
 
 HTML
